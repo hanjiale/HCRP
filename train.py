@@ -60,7 +60,7 @@ def main():
                         help='learning rate')
     parser.add_argument('--weight_decay', default=0.01, type=float,
                         help='weight decay')
-    parser.add_argument('--lamda', default=2.5, type=float,
+    parser.add_argument('--lamda', default=1, type=float,
                         help='loss combination')
     parser.add_argument('--grad_iter', default=1, type=int,
                         help='accumulate gradient every x iterations')
